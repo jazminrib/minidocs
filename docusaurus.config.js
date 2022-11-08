@@ -8,12 +8,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Minima Documentation",
   tagline: "Power to the people",
-  url: "https://docs.minima.global/",
+  url: "https://jazminrib.github.io/minidocs/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "minima-global", // Usually your GitHub org/user name.
+  organizationName: "jazminrib", // Usually your GitHub org/user name.
   projectName: "minidocs", // Usually your repo name.
 
   plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
@@ -26,7 +26,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/minima-global/minidocs",
+          editUrl: "https://jazminrib.github.io/minidocs",
         },
         gtag: {
           trackingID: 'G-BKE0W3LK7F',
@@ -37,7 +37,7 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/minima-global/minidocs",
+          editUrl: "https://jazminrib.github.io/minidocs",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
